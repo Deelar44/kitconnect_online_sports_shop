@@ -17,15 +17,6 @@ export default function Navbar() {
           href="/"
           className="font-extrabold text-xl text-brand-text tracking-tight flex items-center gap-2"
         >
-          <div className="relative w-10 h-10 overflow-hidden rounded-xl border border-brand-border shadow-xs">
-            <Image
-              src="/images/kits/logo.png"
-              alt="KitConnect Logo"
-              fill
-              sizes="40px"
-              className="object-cover"
-            />
-          </div>
           <span>KitConnect</span>
         </Link>
 

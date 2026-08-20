@@ -34,15 +34,6 @@ export default function Footer() {
           {/* Brand Info */}
           <div className="space-y-4 md:col-span-1">
             <Link href="/" className="flex items-center gap-3">
-              <div className="relative w-10 h-10 overflow-hidden rounded-xl border border-brand-border shadow-xs">
-                <Image
-                  src="/images/kits/logo.png"
-                  alt="KitConnect Logo"
-                  fill
-                  sizes="40px"
-                  className="object-cover"
-                />
-              </div>
               <span className="text-xl font-bold tracking-tight text-brand-text">
                 KitConnect
               </span>
